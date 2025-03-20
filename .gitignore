@@ -1,0 +1,4 @@
+.venv
+credentials.json
+client_secret.json
+.streamlit
