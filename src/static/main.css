@@ -1,0 +1,68 @@
+.navbar {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar-text {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  padding: 0;
+}
+.navbar ul li {
+  height: 100%;
+}
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  padding: 0 1rem;
+}
+.navbar ul li a:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+#profile-pic {
+  padding: 1rem;
+}
+#profile-pic img {
+  object-fit: contain;
+  height: 100%;
+  border-radius: 9999px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 6rem);
+  padding: 1rem;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

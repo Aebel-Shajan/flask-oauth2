@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watch-sass": "sass src/templates/main.scss src/static/main.css --watch"
+  },
+  "dependencies": {
+    "sass": "^1.86.0"
+  }
+}

@@ -1,0 +1,22 @@
+@use "./components/navbar/navbar.scss";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    min-height: calc(100vh  - 6rem);
+    padding: 1rem;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white
+}

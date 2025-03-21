@@ -1,0 +1,19 @@
+{% macro navbar(user_info, navbar_text="My website") -%}
+<nav class="navbar">
+  <div class="navbar-text">
+    {{navbar_text}}
+  </div>
+
+  <ul>
+    <li><a href="/">Home</a></li>
+    {% if not user_info %}
+      <li><a href="/login">Login</a></li>
+    {% else %} 
+      
+      {# <li><a href="/logout">Logout</a></li>
+       #}
+      <li><a href="/profile" id="profile-pic"><img src={{user_info['picture']}} /></a></li>
+    {% endif %}
+  </ul>
+</nav>
+{%- endmacro %}

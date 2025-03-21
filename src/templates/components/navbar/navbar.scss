@@ -1,0 +1,50 @@
+.navbar {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .navbar-text {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    padding: 0;
+
+    li {
+      height: 100%;
+
+      a {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        height: 100%;
+        padding: 0 1rem;
+      }
+  
+      a:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#profile-pic {
+  padding: 1rem;
+  img {
+    object-fit: contain;
+    height: 100%;
+    border-radius: 9999px;
+  }
+}

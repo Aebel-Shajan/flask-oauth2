@@ -2,3 +2,9 @@
 credentials.json
 client_secret.json
 .streamlit
+node_modules
+
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

@@ -1,0 +1,23 @@
+{% from "components/navbar/navbar.jinja" import navbar %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask OAuth2 Example</title>
+  <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+
+  {{navbar(user_info)}}
+
+  <main>
+    {% block content %}
+    
+    {% endblock content %}
+  </main>
+  <footer>
+    <p>&copy; 2023 Flask OAuth2 Example. All rights reserved.</p>
+  </footer>
+</body>
+</html>
