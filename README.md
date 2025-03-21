@@ -1,4 +1,4 @@
-# streamlit-google-drive-app
+# flask-oauth2
 Example website that uses google oauth 2.0 and google drive api.
 
 ## Pre reqs
