@@ -1,0 +1,14 @@
+.button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

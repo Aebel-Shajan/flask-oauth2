@@ -1,0 +1,31 @@
+{% extends "base.jinja" %}
+{% from "components/button/button.jinja" import button %}
+
+{% block content %}
+<div class="profile-page-container">
+<div class="profile-container">
+
+<h2>User info:</h2>
+{% if user_info %}
+<div class="user-info-container">
+
+    <img src={{user_info["picture"]}} />
+    <div class="user-info">
+        <p>name: {{user_info["name"]}}</p>
+        <p>email: {{user_info["email"]}}</p>
+    </div>
+    </div>
+{% endif %}
+
+<a href="/logout">
+{% call button() %}
+    Logout
+{% endcall %}
+</a>
+</div>
+</div>
+
+
+
+
+{% endblock content %}

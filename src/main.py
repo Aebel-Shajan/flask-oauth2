@@ -55,7 +55,7 @@ def main_page():
 @app.route("/profile")
 def profile_page():
     return render_template(
-        'pages/profile.jinja',
+        'pages/profile/profile.jinja',
         user_info=session["user"] if"user" in session else None
     )
 
