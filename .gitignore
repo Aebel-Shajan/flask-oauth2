@@ -1,8 +1,10 @@
 .venv
 credentials.json
 client_secret.json
+token.json
 .streamlit
 node_modules
+.DS_STORE
 
 .sass-cache/
 *.css.map
